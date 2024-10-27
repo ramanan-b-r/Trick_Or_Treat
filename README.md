@@ -1,6 +1,6 @@
-# Halloween Multiplayer Game
+# Trick Or Treat
 
-Welcome to the **Halloween Multiplayer Game**! This game is a fun and spooky experience where you play as either the Host or the Trick or Treater. The Host needs to figure out who the real human being is and give them the poisonous treat, while the Trick or Treater tries to convince the Host that they are a zombie and avoid getting the poisonous treat.
+Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as either the Host or the Trick or Treater. The Host needs to figure out who the real human being is and give them the poisonous treat, while the Trick or Treater tries to convince the Host that they are a zombie and avoid getting the poisonous treat.
 
 ## Features
 - **Multiplayer Game:** Play with one other person in a fun and interactive setting.
@@ -25,7 +25,7 @@ Welcome to the **Halloween Multiplayer Game**! This game is a fun and spooky exp
    - If the Host correctly identifies the real human, the Host wins.
    - If the Host fails to identify the real human, the Trick or Treater wins.
 
-## Installation
+
 
 ### Dependencies
 - **GTK 3:** For building the GUI client.
