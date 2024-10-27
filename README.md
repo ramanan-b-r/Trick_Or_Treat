@@ -48,7 +48,11 @@ Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as eith
 1. **Install pthread:**
    ```bash
    sudo apt-get install libpthread-stubs0-dev
-
+###**Commands for compiling**:
+```bash
+   gcc -c socket_lib.c -o socket_lib.o
+   gcc -o server server.c socket_lib.o -lpthread -lcurl -lcjson
+   gcc -o client client.c socket_lib.o -lpthread
 
 
 
