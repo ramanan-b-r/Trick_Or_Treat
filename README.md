@@ -10,8 +10,8 @@ Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as eith
 ## How to Play
 1. **Setup the Server:**
    - Compile and run the server code to start the game server.
+   - Once the server is started on a machine. The two clients wishing to connect to the server need to know the IP address of the server.
    - The server will wait for players to connect.
-
 2. **Connect Clients:**
    - Compile and run the client code for each player.
    - Enter your username when prompted.
