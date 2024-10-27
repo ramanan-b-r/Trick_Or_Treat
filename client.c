@@ -20,6 +20,7 @@
 #define BOLDCYAN "\033[1m\033[36m"
 #define PORT 8071
 #define BUFFER_SIZE 1024
+#define IP_ADDRESS 192.168.XXX.XX //Replace this with the IP address of the server
 
 int flag = 1;
 
@@ -49,7 +50,7 @@ void *receive_messages(void *socket) {
 }
 
 int main() {
-    int sock = client_init("192.168.250.82", PORT);
+    int sock = client_init(IP_ADDRESS, PORT);
     if (sock < 0) {
         return -1;
     }
