@@ -22,8 +22,8 @@ Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as eith
    - After a series of questions, the Host decides who gets the poisonous treat by entering `GUESS 1` or `GUESS 2`.
 
 4. **Winning the Game:**
-   - If the Host correctly identifies the real human, the Host wins.
-   - If the Host fails to identify the real human, the Trick or Treater wins.
+   - If the Host correctly identifies the real human by giving them the candy, the Host wins.
+   - If the Host fails to identify the real human and gives the caady to the AI BOT, the Trick or Treater wins.
 
 
 
