@@ -74,7 +74,7 @@ void *handle_client(void *arg) {
             if(cnt == 10)
                 send_message(client_socket, BOLDGREEN "Your turn and you MUST select the player to give the candy to in this turn. Else you lose the game. (Enter GUESS 1 or GUESS 2) to end the game and choose the player to give the candy to: " RESET);
             else
-                send_message(client_socket, BOLDGREEN "Your turn. Either ask another question or enter GUESS 1 or GUESS 2 to end the game and choose the player to give the candy to:\nEnter your message: " RESET);
+                send_message(client_socket, BOLDGREEN "Your turn. Either ask another question or give the candy to Trick or Treater 1(enter 'GUESS 1') or Trick or Treater 2(enter 'GUESS 2'):\nEnter your message: " RESET);
             valread = receive_message(client_socket, buffer, BUFFER_SIZE);
             if (valread <= 0) break; // If client disconnected, exit loop
             buffer[valread] = '\0';
