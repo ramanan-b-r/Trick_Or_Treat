@@ -3,9 +3,9 @@
 Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as either the Host or the Trick or Treater. The Host needs to figure out who the real human being is and give them the poisonous treat, while the Trick or Treater tries to convince the Host that they are a zombie and avoid getting the poisonous treat.
 
 ## Features
-- **Multiplayer Game:** Play with one other person in a fun and interactive setting.
-- **AI Integration:** Interact with an AI bot that adds an extra layer of fun and challenge.
-- **Halloween Theme:** Enjoy a spooky Halloween-themed game with colorful terminal output.
+- **Multiplayer Game using Socket Programming:** Play with another person on a local network with the help of sockets.
+- **AI Integration:** Interact with an AI model that was trained to mimic a zombie.
+- **Halloween Theme:** The entire game revolves around the idea of conversing and trying to mimic a zombie.
 
 ## How to Play
 1. **Setup the Server:**
@@ -21,7 +21,7 @@ Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as eith
    - The Trick or Treater and the AI bot respond to the questions.
    - After a series of questions, the Host decides who gets the poisonous treat by entering `GUESS 1` or `GUESS 2`.
 
-4. **Winning the Game:**
+4. **Game Strategy:**
    - If the Host correctly identifies the real human by giving them the candy, the Host wins.
    - If the Host fails to identify the real human and gives the candy to the AI BOT, the Trick or Treater wins.
    - The goal of the Trick or Treater is to make themselves sound more like a zombie hence making it harder for the host to identify the AI Bot from the human.
