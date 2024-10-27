@@ -28,7 +28,6 @@ Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as eith
 
 
 ### Dependencies
-- **GTK 3:** For building the GUI client.
 - **CURL:** For making HTTP requests.
 - **cJSON:** For parsing JSON data.
 - **pthread:** For handling threads.
