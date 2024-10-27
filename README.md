@@ -26,7 +26,30 @@ Welcome to the **Halloween Multiplayer Game**! This game is a fun and spooky exp
    - If the Host fails to identify the real human, the Trick or Treater wins.
 
 ## Installation
-1. **Clone the Repository:**
+
+### Dependencies
+- **GTK 3:** For building the GUI client.
+- **CURL:** For making HTTP requests.
+- **cJSON:** For parsing JSON data.
+- **pthread:** For handling threads.
+
+### Steps to Install Dependencies
+1. **Install GTK 3:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   sudo apt-get install libgtk-3-dev
+1. **Install CURL**
+   ```bash
+   sudo apt-get install libcurl4-openssl-dev
+
+1. **Install cJSON:**
+   ```bash
+   sudo apt-get install libcjson-dev
+
+1. **Install pthread:**
+   ```bash
+   sudo apt-get install libpthread-stubs0-dev
+
+
+
+
+
