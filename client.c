@@ -49,7 +49,8 @@ void *receive_messages(void *socket) {
 }
 
 int main() {
-    int sock = client_init("192.168.250.82", PORT);
+    int sock = client_init("192.168.250.82", PORT);//Replace IP here with servers IP_ADDRESS
+    
     if (sock < 0) {
         return -1;
     }
