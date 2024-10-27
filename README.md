@@ -24,6 +24,9 @@ Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as eith
 4. **Winning the Game:**
    - If the Host correctly identifies the real human by giving them the candy, the Host wins.
    - If the Host fails to identify the real human and gives the candy to the AI BOT, the Trick or Treater wins.
+   - The goal of the Trick or Treater is to make themselves sound more like a zombie hence making it harder for the host to identify the AI Bot from the human.
+   - The Trick or Treater gets to see the previous responses of the AI BOT giving them an oppurtunity to mimic the AI by predicting its speech patterns.
+   - The Host gets a maximum of 10 questions to diffrentiate the human response from the AI Bot's response. The Host is allowed to guess the identity of the human at any point of the game.
 
 
 
