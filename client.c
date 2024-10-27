@@ -21,7 +21,7 @@
 #define PORT 8071
 #define BUFFER_SIZE 1024
 
-int flag =1;
+int flag = 1;
 
 void *receive_messages(void *socket) {
     int sock = *(int *)socket;
@@ -49,8 +49,7 @@ void *receive_messages(void *socket) {
 }
 
 int main() {
-    int sock = client_init("192.168.250.82", PORT);//Replace IP here with servers IP_ADDRESS
-    
+    int sock = client_init("192.168.250.115", PORT);
     if (sock < 0) {
         return -1;
     }
