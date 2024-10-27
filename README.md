@@ -34,18 +34,16 @@ Welcome to the **Trick or Treat Game**! This is a fun gamewhere you play as eith
 - **pthread:** For handling threads.
 
 ### Steps to Install Dependencies
-1. **Install GTK 3:**
-   ```bash
-   sudo apt-get install libgtk-3-dev
+
 1. **Install CURL**
    ```bash
    sudo apt-get install libcurl4-openssl-dev
 
-1. **Install cJSON:**
+2. **Install cJSON:**
    ```bash
    sudo apt-get install libcjson-dev
 
-1. **Install pthread:**
+3. **Install pthread:**
    ```bash
    sudo apt-get install libpthread-stubs0-dev
 ### Commands for compiling:
