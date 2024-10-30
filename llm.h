@@ -39,7 +39,7 @@ sprintf(input, "{\"contents\":[{\"parts\":[{\"text\":\"You are a zombie, talk li
 
     if(curl) {
         // Set URL
-        curl_easy_setopt(curl, CURLOPT_URL,"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCSLNC2_BbOM2kSTaaM4Es2v9nSRzTWFv0" );
+        curl_easy_setopt(curl, CURLOPT_URL,"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" );
         // Set POST request
         curl_easy_setopt(curl, CURLOPT_POST, 1L);
         // Set POST data
